@@ -42,6 +42,7 @@ aux_links_new_tab: true
 # ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
 
 # Build settings
+remote_theme: pmarsceill/just-the-docs
 theme: just-the-docs
 plugins:
   - jekyll-feed
