@@ -24,7 +24,7 @@ email: webteam@accessnetworks.com
 description: >- # this means to ignore newlines until "baseurl:"
   Engineering Best Practices
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://accessnetworks.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: accessnetworks
 github_username:  accessnetworks
 
