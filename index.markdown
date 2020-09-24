@@ -4,4 +4,9 @@
 
 layout: home
 ---
-The Access Networks Engineering Best Practices are not geared to teach anyone to become an expert engineer.
+The Access Networks Engineering Best Practices is just our general best practice advice for our team. There are many great examples of other companies with similar guides.
+
+- [10up](https://10up.github.io/Engineering-Best-Practices/)
+- [Segment](https://segment.com/blog/engineering-best-practices/)
+- [Human Made](https://engineering.hmn.md/)
+- [XWP](https://docs.xwp.co/engineering-best-practices/)
