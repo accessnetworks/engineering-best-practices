@@ -7,6 +7,14 @@ nav_order: 6
 
 # MySQL for WordPress
 
+***Get All Options***
+
+<code>SELECT * from wp_options</code>
+
+***Reset a User Password***
+
+<code>UPDATE wp_users SET user_pass = MD5( 'new_password' ) WHERE user_login = 'myusername';</code>
+
 ***Find the rows with the largest amount of data in the option_value***
 
 <code>SELECT option_name, length(option_value) FROM wp_options WHERE autoload='yes' ORDER BY length(option_value) DESC LIMIT 30</code>
@@ -37,3 +45,11 @@ WordPress does not support foreign keys out of the box, with that said you may w
 
 - [How to Create MySQL Triggers](https://www.sitepoint.com/how-to-create-mysql-triggers/)
 - [MySQL Triggers](https://www.mysqltutorial.org/mysql-triggers.aspx)
+
+## Stored Procedures
+
+- [Stored Procedures](https://www.mysqltutorial.org/mysql-stored-procedure-tutorial.aspx)
+
+## Views
+
+- [MySQL Views](https://www.mysqltutorial.org/mysql-views-tutorial.aspx)
